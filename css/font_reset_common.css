@@ -1,0 +1,31 @@
+/* web font */
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+.nanumgothic * { font-family: 'Nanum Gothic', sans-serif;}
+
+
+
+/*reset*/
+
+* { margin: 0; padding: 0; }
+a { text-decoration: none; color: inherit; }
+li { list-style: none; }
+img { vertical-align: top; }
+
+
+
+/*common*/
+
+html { overflow-x: hidden; font-size: 62.5%; }
+body { font-family: 'Nanum Gothic', sans-serif; font-size: 1.4rem; color:#222; word-spacing: 0.5;  }
+.wrap { width: 1240px; max-width: 1480px; margin: 0 auto; position: relative; }
+.wrap:after, ul:after, .cl:after { content:""; clear: both; display: block; }
+.fl { display: flex; align-items: center; }
+.fl:after { display: none; }
+.blind { position: absolute; left:-9999px; font-size:0; width: 0; height: 0; overflow: hidden; }
+
+/* 본문 컬러 color: #222 #555, #888, #fff 로 위계정리 및 통일감 형성 */
+/* 배경 색상 #03346c, #163271, #01234b, #3c4968, #3b62bb, #0056b3 */
+
+
+
